@@ -53,7 +53,7 @@ class Player with ChangeNotifier {
   }
 
   //money of first player
-  var _money1 = 30000;
+  var _money1 = 300;
 
   int get money1 {
     return _money1;
@@ -77,7 +77,7 @@ class Player with ChangeNotifier {
   }
 
   //index of first player
-  int _index1 = 17;
+  int _index1 = 0;
 
   int get index1 {
     return _index1;
@@ -396,7 +396,7 @@ class Player with ChangeNotifier {
           timer.cancel();
 
           String z = list[i][j];
-          z = 'start';
+          //       z = 'start';
           if (z == 'start') {
             start(context);
           } else if (z == 'buy') {

@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
 
-import '../providers/player.dart';
+import 'player.dart';
 
 // ignore: must_be_immutable
 class GameScreen extends StatefulWidget with ChangeNotifier {

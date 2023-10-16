@@ -1,5 +1,5 @@
-import 'package:farm/providers/player.dart';
-import 'package:farm/screens/game.dart';
+import 'package:farm/player.dart';
+import 'package:farm/game.dart';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
